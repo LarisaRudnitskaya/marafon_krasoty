@@ -1,0 +1,7 @@
+AddType application/manifest+json .webmanifest
+AddType application/javascript .js
+AddType text/css .css
+
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=3600"
+</IfModule>
